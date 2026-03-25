@@ -4,6 +4,36 @@ body {
   display: grid;
   place-items: center;
   background: #1a1a2e;
-  color: #eee;
+}
+
+#plumbing-btn {
+  width: 10vw;
+  height: 10vh;
+  background: #f40009;
+  color: #fff;
   font-family: system-ui, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+#plumbing-btn.clicked {
+  background: aquamarine;
+  color: #1a1a2e;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}
+
+#plumbing-btn.shake {
+  animation: shake 0.4s ease;
 }

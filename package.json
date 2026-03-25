@@ -25,5 +25,8 @@
   "homepage": "https://github.com/profangrybeard/Vanilla_Claude#readme",
   "devDependencies": {
     "vite": "^8.0.2"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.4"
   }
 }
