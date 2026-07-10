@@ -1,8 +1,8 @@
 {
   "name": "vanilla_claude",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "The Hero Faction Screen — an interactive single-page experience for AI 201 (SCAD).",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
@@ -16,9 +16,8 @@
     "url": "git+https://github.com/profangrybeard/Vanilla_Claude.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "author": "profangrybeard",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/profangrybeard/Vanilla_Claude/issues"
   },
